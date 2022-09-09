@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ *
  * eturn: 1 on success
  */
 int main(void)
