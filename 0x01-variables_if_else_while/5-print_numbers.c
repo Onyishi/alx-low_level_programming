@@ -1,20 +1,16 @@
  #include <stdio.h>
 
-
 /**
  *
- *  * main - Prints numbers from 0 to 9.
+ *  main - print if the number is postive, zero, or negative
  *
- *   *
+ *  Description: using the main function
  *
- *    * Return: Always 0 (Success)
+ *  Return: 0
  *
  */
-
 int main(void)
-
 {
-
 		int i;
 
 
