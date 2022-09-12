@@ -1,43 +1,87 @@
-
-
 #include <stdio.h>
 
+
+
 /**
- *  * main - print triple combos
+ *
+ *  * main - Prints numbers between 012 to 789.
+ *
  *   *
- *    * Description: print triple digit combos
- *     *
- *      * Return: Always 0 (Success)
- *       */
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
+
 {
-		int i, j, k;
+
+		int i, e, g;
+
+
 
 			i = 48;
-				j = 48;
-					k = 48;
-						while (i < 58)
+
+				e = 48;
+
+					g = 48;
+
+
+
+						while (e < 58)
+
 								{
-											j = i + 1;
-													while (j < 58)
+
+											i = 48;
+
+													while (i < 58)
+
 																{
-																				k = j + 1;
-																							while (k < 58)
+
+																				g = 48;
+
+																							while (g < 58)
+
 																											{
-																																putchar(i);
-																																				putchar(j);
-																																								putchar(k);
-																																												if (i < 55 || j < 56 || k < 57)
-																																																	{
-																																																							putchar(44);
-																																																												putchar(32);
-																																																																			k++;
-																																																																										}
-																																																			j++;
-																																																										}
-																														i++;
-																																					}
-																				putchar(10);
-																											return (0);
+
+																																if (e != i && e != g && i != g && e < i && i < g)
+
+																																					{
+
+																																											putchar(e);
+
+																																																putchar(i);
+
+																																																					putchar(g);
+
+																																																										if (i == 56 && e == 55 && g == 57)
+
+																																																																{
+
+																																																																							break;
+
+																																																																												}
+
+																																																															putchar(',');
+
+																																																																				putchar(' ');
+
+																																																																								}
+
+																																				g++;
+
+																																							}
+
+																										i++;
+
 																												}
+
+															e++;
+
+																}
+
+							putchar('\n');
+
+								return (0);
+
+}
