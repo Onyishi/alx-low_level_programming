@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	int num;
+	int z;
 
-	form(num = 0; num < 10; num++)
-		printf("%d", num);
-
+	form(z = 0; z < 10; z++)
+	{
+		printf("%d", z);
+	}
 	
-	printf("\n");
-
+	printf('\n');
 	return (0)
 
 }
