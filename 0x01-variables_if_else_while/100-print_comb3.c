@@ -3,8 +3,6 @@
 /**
  * main - Prints numbers between 00 to 89.
  *
- * *
- *
  * * Return: 0
  */
 int main(void)
