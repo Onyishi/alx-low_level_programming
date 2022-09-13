@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * 	main- entry point
- *
- *	Description: using the main function
- * 	return: 1 on succes
-*/
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 
 int main(void)
 {
