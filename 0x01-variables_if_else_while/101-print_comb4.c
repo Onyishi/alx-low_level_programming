@@ -12,7 +12,6 @@
 int main(void)
 
 {
-
 	int i, e, g;
 		
 	i = 48;
