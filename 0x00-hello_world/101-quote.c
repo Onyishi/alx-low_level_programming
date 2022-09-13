@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point    
- * Return: 1 on success
+ * 	main- entry point
+ *
+ * 	return: 1 on succes
  */
+
 int main(void)
 {
 		printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
