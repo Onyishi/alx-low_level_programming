@@ -2,6 +2,7 @@
 
 /**
  * 	main- entry point
+ *
  *	Description: using the main function
  * 	return: 1 on succes
 */
