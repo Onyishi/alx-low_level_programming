@@ -20,7 +20,7 @@ int main(void)
 				total = total + start_num;						}
 			else
 			{
-				continu;								}									}
+				continue;								}									}
 
 		printf("%d", total);
 		printf("\n");
