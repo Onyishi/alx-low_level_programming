@@ -18,6 +18,7 @@ int main(void)
 			k = j;
 			j += i;
 			i = k;
+		
 		}
 
 		printf("%d\n", total);
