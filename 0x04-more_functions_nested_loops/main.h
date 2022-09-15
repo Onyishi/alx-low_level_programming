@@ -11,6 +11,6 @@
 int _putchar(char c);
 int _isdigit(int c);
 int _isupper(int c);
-int -2-mul(int c);
+int _2-mul(int c);
 
 #endif
