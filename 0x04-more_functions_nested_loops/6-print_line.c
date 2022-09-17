@@ -1,21 +1,18 @@
 #include "main.h"
 
 /**
- *  * print_line - prints line
- *   * @n: param
+ *  print_line - prints line
+ *  @n: param
  */
 
 void print_line(int n)
 {
-		int lines;
-			
-		if (n > 0)
-		{
-			for (line = 0; line <= n; line++)
+		int i = 1;
+		
+			while (i <= n)
 			{
-				_putchar('_');
+				_putchar(95);
+				i++;
 			}
-		}
-		_putchar('\n');
+			_putchar('\n');
 }
-
