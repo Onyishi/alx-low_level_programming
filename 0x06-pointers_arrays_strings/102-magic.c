@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 int main(void)
 {
@@ -8,9 +8,9 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	/*
+	/**                                                                                                                                
 	 *  write your line of code here..
-	 *  @dest: destination.
+	 * @dest: destination.
 	 *  Remember:
 	 *  - you are not allowed to use a
 	 *  - you are not allowed to modify p
