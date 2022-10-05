@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -15,8 +14,9 @@ int _strlen(char *s)
 	while (s[i] != '\0') /*Count character of string*/
 	{
 		i++;
-		return (i);
 	}
+	return (i);
+}
 
 /**
  *  str_concat - back a pointer to array
